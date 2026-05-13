@@ -1,3 +1,9 @@
+# Stock Portfolio Tracker
+
+A Flutter mobile app for tracking stock investments, monitoring portfolio performance, and viewing real-time stock price updates.
+
+## Screenshots
+
 <div align="center">
 
 <table>
@@ -14,3 +20,40 @@
 </table>
 
 </div>
+
+## Features
+
+- Add and track stock positions
+- View total portfolio value
+- Track gains, losses, cost basis, dividends, and realized gains
+- Real-time stock price updates
+- Portfolio allocation chart
+- Individual stock detail pages
+- Buy and sell stock tracking
+- Watchlist for monitoring stocks
+- Price alerts with local notifications
+- Currency display options
+- Light and dark mode support
+- Local data storage using SharedPreferences
+
+## Tech Stack
+
+- Flutter
+- Dart
+- Provider for state management
+- Finnhub API for stock quotes and metrics
+- Yahoo Finance chart data for dividends and historical price data
+- fl_chart for charts and visualizations
+- shared_preferences for local storage
+- flutter_local_notifications for price alerts
+
+## Project Structure
+
+```text
+lib/
+├── models/
+├── providers/
+├── screens/
+├── services/
+├── widgets/
+└── main.dart
